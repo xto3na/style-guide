@@ -7,6 +7,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HomeComponent } from './home/home.component';
+import { HtmlCssComponent } from './html-css/html-css.component';
+import { MenuComponent } from './menu/menu.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -27,7 +29,7 @@ const appRoutes: Routes = [
   //  //   { path: 'item/:id', component: AboutItemComponent } // url: about/item
   //  // ]
   // },
-  // { path: 'contact', component: ContactComponent },
+  { path: 'html-css', component: HtmlCssComponent },
   // { path: 'about', component: AboutComponent },
   { path: '**', component: NotFoundComponent }
 ];
@@ -36,7 +38,9 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     NotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    HtmlCssComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

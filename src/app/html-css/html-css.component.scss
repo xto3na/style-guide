@@ -1,0 +1,9 @@
+@import "../../scss/meta/variables";
+
+.html-css-tbl {
+	border-collapse: collapse;
+	th, td {
+		border: 1px solid $txt;
+		padding: 10px;
+	}
+}
