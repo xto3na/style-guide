@@ -1,0 +1,16 @@
+@import "../../scss/meta/variables";
+
+.main-menu {
+	height: 60px;
+	background: $green;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.main-menu_item {
+	height: 100%;
+	line-height: 100%;
+}

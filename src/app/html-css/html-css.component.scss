@@ -2,8 +2,16 @@
 
 .html-css-tbl {
 	border-collapse: collapse;
+	table-layout: fixed;
+	width: 100%;
 	th, td {
 		border: 1px solid $txt;
 		padding: 10px;
+		&:not(:first-child) {
+			width: 427px;
+		}
+	}
+	p {
+		max-width: 407px;
 	}
 }
